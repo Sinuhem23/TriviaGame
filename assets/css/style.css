@@ -1,0 +1,96 @@
+/* Affects All */
+
+body {
+	background-image: url(../images/game-show-background.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	position: auto;
+	width: 100%;
+    height: 100%;
+
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/* Main container */
+.ContImg {
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    text-align: center;
+    background-image: linear-gradient(rgb(0, 255, 179), rgb(118, 87, 255));
+ 
+    
+    width: auto;
+    height: auto;
+    border: solid rgb(255, 217, 0);
+
+
+}
+
+/* Timer */
+#display {
+    
+}
+
+/* Game Details */
+
+.GameName {
+    border-bottom: solid yellow;
+    color: rgb(200, 218, 40);
+    
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgb(111, 0, 255), rgb(255, 115, 0));
+    width: 100%;
+
+    
+
+}
+
+.questions {
+
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+    border: solid rgb(199, 24, 53);
+    width: 90%;
+    
+
+    
+    
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+
+
+.TextQuest {
+font-size: 20px;
+}
