@@ -10,6 +10,18 @@ body {
     height: 100%;
 
 }
+/* Timer */
+#counter {
+    margin-left: 460px;
+    font-size: 50px;
+   border: solid white;
+   background-image: linear-gradient(rgb(0, 174, 255), rgb(87, 244, 255));
+   margin-bottom: 20px;
+   width: 200px;
+
+
+}
+
 
 /* Button */
 
@@ -42,7 +54,7 @@ body {
     margin-top: 180px;
     margin-bottom: 180px;
     text-align: center;
-    background-image: linear-gradient(rgb(0, 255, 179), rgb(118, 87, 255));
+    background-image: linear-gradient(rgb(0, 255, 255), rgb(118, 87, 255));
  
     
     width: auto;
