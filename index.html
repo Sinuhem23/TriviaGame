@@ -1,197 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Links -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <!-- Google Fonts -->
-    <link
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+     <link
       href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap"
       rel="stylesheet"
     />
-    <!-- bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
 
-    <!-- Title -->
     <title>Trivia Game</title>
-  </head>
+</head>
 
-  <body>
-    
-      <p id="direction-text">
-    <button class="button"  id="direction-text">Begin Trivia!</button>
-  </p>
-
-    <!-- Main container -->
-    <div class="container ContImg">
-      <div id="quiz"></div>
-     
-      <div class="row">
-      <h1 class="GameName">The "Who & What" Game</h1>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>The "Who & What" Game</h1>
+            <button class="btn btn-primary button-color" id="start"> Begin Trivia </button>
+        </div>
     </div>
-      <!-- First Question -->
-
-      <div class="row">
-          <div id="counter">1:00</div>
-  
-          
-        <div class="questions">
-          <img class="PhotosALL" src="assets/images/NikolaT.jpeg">
-          <p class="TextQuest">Who is this?</p>
-        
-      
-
-      <!-- First Multiple Choice -->
-
-      
-        <button class="MultChoice">
-          Nikola Tesla
-        </button>
-        <button class="MultChoice">
-          Benjamin Franklin
-        </button>
-        <button class="MultChoice">
-          Thomas Edison
-        </button>
-        <button class="MultChoice">
-          Napoleon Bonaparte
-        </button>
-      </div>
-      </div>
-
-      <!-- Second Question -->
-
-      <div class="row">
-        <div class="questions">
-            <img class="PhotosALL"src="assets/images/Mustang.JPG">
-          
-            <p class="TextQuest">What car are these?</p>
-          
-          
-      
-
-      <!-- Second Multiple Choice -->
-
-      
-        <button class="MultChoice">
-          Nissan Altima
-        </button>
-        <button class="MultChoice">
-          Ford Mustang
-          </button>
-        <button class="MultChoice">
-          Dodge Challenger
-          </button>
-        <button class="MultChoice">
-          Chevrolet Camaro
-        </button>
-      
-      </div>
+    <div class="container container-background ">
+        <h2 id="time"></h2>
+        <div id="game"></div>
     </div>
 
-      <!-- Third Question -->
 
-      <div class="row">
-        <div class="questions">
-            <img class="PhotosALL" src="assets/images/SpaceX.jpg">
-          <p class="TextQuest">Who is the face of SpaceX?</p>
-        
-     
 
-      <!-- Third Multiple Choice -->
 
-      
-        <button class="MultChoice">
-          Neil deGrasse Tyson
-        </button>
-        <button class="MultChoice">
-          Jon Stewart
-        </button>
-        <button class="MultChoice">
-          Elon Musk
-        </button>
-        <button class="MultChoice">
-          Leonardo DiCaprio
-        </button>
-      </div>
-      </div>
 
-      
-      <!-- Fourth Question -->
 
-      <div class="row">
-        <div class="questions">
-            <img class="PhotosALL" src="assets/images/Model3.JPG">
-          <p class="TextQuest">What Model number is this?</p>
-        
-      
-
-      <!-- Fourth Multiple Choice -->
-
-      
-        <button class="MultChoice">
-          9
-        </button>
-        <button class="MultChoice">
-          12
-        </button>
-        <button class="MultChoice">
-          6
-        </button>
-        <button class="MultChoice">
-          3
-        </button>
-      </div>
-      </div>
-      
-
-      <!-- Fifth Question -->
-
-      <div class="row">
-        <div class="questions">
-            <img class="PhotosALL" src="assets/images/CourtBuilding.jpg">
-          <p class="TextQuest">Who won numerous Supreme Court case on curing cancer?</p>
-       
-     
-
-      <!-- Fifth Multiple Choice -->
-
-      
-        <button class="MultChoice">
-          Andrew Jackson
-        </button>
-        <button class="MultChoice">
-          Lisa Lopes AKA Left Eye
-        </button>
-        <button class="MultChoice">
-          Ermias Joseph Asghedom AKA Nipsey Hussle
-        </button>
-        <button class="MultChoice">
-          Alfredo Darrington Bowman AKA DR.Sebi
-        </button>
-      </div>
-      </div>
-      
-      <button id="submit">Submit</button>
-      <div id="results"></div>
-      
-      <button id="reset-button" style="display: none;">Reset Game</button>
-     
     </div>
 
-    
+    <script src="assets/javascript/questions.js"></script>
+    <script src="assets/javascript/add.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/questions.js"></script>
+    <script src="./assets/javascript/add.js"></script>
+</body>
 
-    <!-- Linking our JavaScript file -->
-<script type="text/javascript" src="assets/javascript/app.js"></script>
-
-  </body>
 </html>
