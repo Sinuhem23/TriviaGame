@@ -10,6 +10,43 @@ body {
     height: 100%;
 
 }
+
+.MultChoice {
+    
+
+    margin-bottom: 20px;;
+
+}
+
+.PhotosALL {
+    border-left: solid white;
+    border-bottom: solid white;
+    border-right: solid white;
+    
+    
+    
+    }
+
+.row {
+        margin-bottom: 20px;
+    }
+    
+.TextQuest {
+        font-size: 20px;
+        margin-top: 10px;
+        border-bottom: solid rgb(219, 107, 107);
+        border-top: solid rgb(255, 255, 255);
+        
+        margin-right: 100px;
+        margin-left: 100px;
+        
+        }
+
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+
+
+
 /* Timer */
 #counter {
     margin-left: 460px;
@@ -18,9 +55,13 @@ body {
    background-image: linear-gradient(rgb(0, 174, 255), rgb(87, 244, 255));
    margin-bottom: 20px;
    width: 200px;
-
-
 }
+
+
+
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+
 
 
 /* Button */
@@ -38,6 +79,8 @@ body {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    
+  
   }
   
   .button:hover {background-color: #3e8e41}
@@ -47,6 +90,34 @@ body {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+  #submit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(204, 224, 20);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px rgb(216, 162, 47);
+    margin-bottom: 20px;
+
+  }
+
+  #submit:hover {background-color: #3c7e16}
+  
+  #submit:active {
+    background-color: #8cc24e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+
 
 /* Main container */
 .ContImg {
@@ -64,10 +135,12 @@ body {
 
 }
 
-/* Timer */
-#display {
-    
-}
+
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+
+
+
 
 /* Game Details */
 
@@ -84,25 +157,21 @@ body {
 }
 
 .questions {
-
+    font-size: 20px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
   
     border: solid rgb(199, 24, 53);
     width: 90%;
+    margin-bottom: 10px;
     
 
     
     
 }
 
-.row {
-    margin-bottom: 20px;
-}
 
 
 
-.TextQuest {
-font-size: 20px;
-}
+

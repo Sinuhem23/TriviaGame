@@ -8,6 +8,7 @@
 
 
 // // variables references to HTML
+var directionText = document.getElementById("direction-text");
 // var directionsText = document.getElementById("directions-text");
 
 

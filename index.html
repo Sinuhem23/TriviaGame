@@ -27,10 +27,14 @@
 
   <body>
     
-    <button class="button"  id="directions-text">Begin Trivia!</button>
+      <p id="direction-text">
+    <button class="button"  id="direction-text">Begin Trivia!</button>
+  </p>
 
     <!-- Main container -->
     <div class="container ContImg">
+      <div id="quiz"></div>
+     
       <div class="row">
       <h1 class="GameName">The "Who & What" Game</h1>
     </div>
@@ -41,133 +45,144 @@
   
           
         <div class="questions">
-          <img src="assets/images/NikolaT.jpeg">
+          <img class="PhotosALL" src="assets/images/NikolaT.jpeg">
           <p class="TextQuest">Who is this?</p>
-        </div>
-      </div>
+        
+      
 
       <!-- First Multiple Choice -->
 
-      <div class="row">
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
+      
+        <button class="MultChoice">
+          Nikola Tesla
+        </button>
+        <button class="MultChoice">
+          Benjamin Franklin
+        </button>
+        <button class="MultChoice">
+          Thomas Edison
+        </button>
+        <button class="MultChoice">
+          Napoleon Bonaparte
+        </button>
+      </div>
       </div>
 
       <!-- Second Question -->
 
       <div class="row">
         <div class="questions">
-            <img src="assets/images/Mustang.JPG">
+            <img class="PhotosALL"src="assets/images/Mustang.JPG">
           
             <p class="TextQuest">What car are these?</p>
           
-          </div>
-      </div>
+          
+      
 
       <!-- Second Multiple Choice -->
 
-      <div class="row">
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
+      
+        <button class="MultChoice">
+          Nissan Altima
+        </button>
+        <button class="MultChoice">
+          Ford Mustang
+          </button>
+        <button class="MultChoice">
+          Dodge Challenger
+          </button>
+        <button class="MultChoice">
+          Chevrolet Camaro
+        </button>
+      
       </div>
+    </div>
 
       <!-- Third Question -->
 
       <div class="row">
         <div class="questions">
-            <img src="assets/images/SpaceX.jpg">
-          <p class="TextQuest">Who created SpaceX?</p>
-        </div>
-      </div>
+            <img class="PhotosALL" src="assets/images/SpaceX.jpg">
+          <p class="TextQuest">Who is the face of SpaceX?</p>
+        
+     
 
       <!-- Third Multiple Choice -->
 
-      <div class="row">
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
+      
+        <button class="MultChoice">
+          Neil deGrasse Tyson
+        </button>
+        <button class="MultChoice">
+          Jon Stewart
+        </button>
+        <button class="MultChoice">
+          Elon Musk
+        </button>
+        <button class="MultChoice">
+          Leonardo DiCaprio
+        </button>
+      </div>
       </div>
 
+      
       <!-- Fourth Question -->
 
       <div class="row">
         <div class="questions">
-            <img  src="assets/images/Model3.JPG">
+            <img class="PhotosALL" src="assets/images/Model3.JPG">
           <p class="TextQuest">What Model number is this?</p>
-        </div>
-      </div>
+        
+      
 
       <!-- Fourth Multiple Choice -->
 
-      <div class="row">
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
+      
+        <button class="MultChoice">
+          9
+        </button>
+        <button class="MultChoice">
+          12
+        </button>
+        <button class="MultChoice">
+          6
+        </button>
+        <button class="MultChoice">
+          3
+        </button>
       </div>
+      </div>
+      
 
       <!-- Fifth Question -->
 
       <div class="row">
         <div class="questions">
-            <img src="assets/images/CourtBuilding.jpg">
+            <img class="PhotosALL" src="assets/images/CourtBuilding.jpg">
           <p class="TextQuest">Who won numerous Supreme Court case on curing cancer?</p>
-        </div>
-      </div>
+       
+     
 
       <!-- Fifth Multiple Choice -->
 
-      <div class="row">
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
-        <div class="MultChoice">
-          <p></p>
-        </div>
+      
+        <button class="MultChoice">
+          Andrew Jackson
+        </button>
+        <button class="MultChoice">
+          Lisa Lopes AKA Left Eye
+        </button>
+        <button class="MultChoice">
+          Ermias Joseph Asghedom AKA Nipsey Hussle
+        </button>
+        <button class="MultChoice">
+          Alfredo Darrington Bowman AKA DR.Sebi
+        </button>
       </div>
+      </div>
+      
+      <button id="submit">Submit</button>
+      <div id="results"></div>
       
       <button id="reset-button" style="display: none;">Reset Game</button>
      
