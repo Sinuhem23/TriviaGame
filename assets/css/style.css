@@ -25,6 +25,14 @@ h2, h4 {
     font-family: 'Luckiest Guy', cursive;
 }
 
+.margin-control {
+    margin-top: 50px;
+}
+
+.marginSpace {
+    margin-top: 10px;
+}
+
 .jumbotron {
     background-image: url("https://images.pond5.com/game-show-background-loop-footage-089414224_iconl.jpeg");
     background-size: contain;
@@ -37,12 +45,14 @@ h2, h4 {
     color: mediumspringgreen;
     font-size: 20px;
     font-family: 'Luckiest Guy', cursive;
-    margin:auto;
+   
 }
+
 
 
 .container {
     padding: 20px;
+   
 }
 
 /* ////////////////////////////////////////////////////// */
@@ -82,11 +92,11 @@ h2, h4 {
     
 }
 
-.margin-control {
-    margin-top: 50px;
-}
 
-.marginSpace {
-    margin-top: 10px;
-}
+
+
+
+
+
+    
 

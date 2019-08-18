@@ -1,12 +1,8 @@
 
 var quizQuestions = [
-//     ["assets/images/NikolaT.jpeg",'0'],
-//     ["assets/images/mustang.jpg",'1'],
-//     ["assets/images/SpaceX.jpg",'2'],
-//     ["assets/images/Model3.jpg",'3'],
-//     ["assets/images/CourtBuilding.jpg",'4'],
+
     {
-        
+
         //question 1
         
       question:
