@@ -11,6 +11,8 @@ var quizQuestions = [
         
       question:
         "1. Who is this?",
+        image: "assets/images/NikolaT.jpeg",
+
         choices: [
         "Nikola Tesla",
         "Benjamin Franklin",
@@ -24,6 +26,9 @@ var quizQuestions = [
         //question 2
       question:
         "2. What car are these?",
+        
+        image: "assets/images/mustang.jpg",
+ 
       choices: [
         "Nissan Altima",
         "Ford Mustang",
@@ -38,6 +43,8 @@ var quizQuestions = [
       //question 3
     question:
       "3. Who is the face of SpaceX?",
+    image: "assets/images/ElonMusk.jpg",
+
     choices: [
       "Niel deGrasse Tyson",
       "Jon Stewart",
@@ -52,6 +59,8 @@ var quizQuestions = [
       //question 4
     question:
       "4. What Model number is this?",
+    image: "assets/images/Model3.jpg",
+
     choices: [
       "9",
       "12",
@@ -65,6 +74,8 @@ var quizQuestions = [
       //question 5
     question:
       "5. Who won numerous Supreme Court case on curing cancer?",
+    image: "assets/images/drSebi.jpg",
+
     choices: [
       "Andrew Jackson",
       "Lisa Lopes AKA Left Eye",

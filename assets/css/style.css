@@ -3,33 +3,50 @@
 
 body {
     margin-top: 30px;
-    background: url("https://images.pond5.com/game-show-background-loop-footage-089414224_iconl.jpeg");
+    background-image: url("https://ak2.picdn.net/shutterstock/videos/22371352/thumb/1.jpg");
+   
     background-repeat: repeat-y;
     background-size: 100%;
     text-align: center;
 }
-
 h1 {
    
     font-family: 'Luckiest Guy', cursive;
     font-size: 60px;
     font-weight: bold;
+    color: rgb(110, 226, 236);
   
 }
 
 h2, h4 {
+    color: rgb(220, 223, 63);
     
+ 
     font-family: 'Luckiest Guy', cursive;
 }
 
 .jumbotron {
-    background-color: aqua;
+    background-image: url("https://images.pond5.com/game-show-background-loop-footage-089414224_iconl.jpeg");
+    background-size: contain;
+    background-repeat: repeat;
+    opacity: .8;
+  
+}
+
+#game {
+    color: mediumspringgreen;
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 
 .container {
     padding: 20px;
 }
+
+/* ////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////// */
+
 
 /* Button */
 
@@ -42,6 +59,9 @@ h2, h4 {
 .button-color:hover {
     background-color: rgb(206, 135, 105);
 }
+
+/* ////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////// */
 
 
 /* choices */
@@ -57,7 +77,8 @@ h2, h4 {
 }
 
 .container-background {
-    background-color: rgb(193, 207, 255);
+    background-image: url("https://images.pond5.com/game-show-background-loop-footage-089414224_iconl.jpeg");
+    
 }
 
 .margin-control {
