@@ -59,11 +59,11 @@ var quizQuestions = [
      image: "assets/images/Model3.png",
 
     choices: [
-      "9",
-      "12",
-      "9",
-      "3"],
-    correctAnswer: "3",
+      "Model 9",
+      "Model 12",
+      "Model 9",
+      "Model 3"],
+    correctAnswer: "Model 3",
     
     
   }, ////////////////////////////////////////////
