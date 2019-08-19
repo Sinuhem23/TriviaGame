@@ -56,7 +56,7 @@ var quizQuestions = [
     question:
       "4. What Model number is this?",
     //   Photo for Question
-     image: "assets/images/Model3.jpg",
+     image: "assets/images/Model3.png",
 
     choices: [
       "9",
