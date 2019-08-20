@@ -82,12 +82,7 @@ function loadQuestion() {
     `);
 }
 
-// function addimage() {
-//   var img = new Image();
-//   img.src = "assets/images/NikolaT.jpeg"
-//   img_home.appendChild(img);
 
-// }
 // load question function
 function loadChoices(choices) {
   var result = "";
@@ -168,7 +163,6 @@ function reset() {
     currentQuestion = 0;
     score = 0; //score var
     lost = 0; //lost var
-    document.getElementById("img_home").style.display='none';
 
     loadQuestion();
    
